@@ -1,0 +1,170 @@
+### MULTIPLE SETTING - 24h
+
+[s.falciglia@dev salvatore-backup-advanced]$ python3 LAURA_going_to_github/main_inference_multiplesetting.py
+Seed set to 1101
+/home/s.falciglia/.local/lib/python3.9/site-packages/torch/nn/modules/transformer.py:307: UserWarning: enable_nested_tensor is True, but self.use_nested_tensor is False because encoder_layer.self_attn.batch_first was not True(use batch_first for better inference performance)
+  warnings.warn(f"enable_nested_tensor is True, but self.use_nested_tensor is False because {why_not_sparsity_fast_path}")
+/home/s.falciglia/.local/lib/python3.9/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python3 LAURA_going_to_github/main_inference_multiplesettin ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+#### Opening Beta File patient 1 ...
+['# date', 'time', '  beta_amp_ch1', '  beta_amp_ch2', '  beta_power_ch1_norm', ' beta_power_ch2_norm']
+#### Opening TimeFrequency File patient 1 ...
+#### Working on TimeFrequency File patient 1 ...
+#### Opening Stim File ...
+BetaOscillations_AllFiles len: 55702
+BetaOscillations_AllFiles_DAY_segment len: 18
+BetaOscillations_AllFiles_DAY_segment len: 44
+BetaOscillations_AllFiles_DAY_segment len: 14
+BetaOscillations_AllFiles_DAY_segment len: 67
+BetaOscillations_AllFiles_DAY_segment len: 21
+BetaOscillations_AllFiles_DAY_segment len: 139
+BetaOscillations_AllFiles_DAY_segment len: 81
+BetaOscillations_AllFiles_DAY len: 7
+BetaOscillations_AllFiles_MORNING_segment len: 18
+BetaOscillations_AllFiles_NIGHT_segment len: 36
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:539: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_firstHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_firstHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_firstHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 44
+BetaOscillations_AllFiles_NIGHT_segment len: 87
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:558: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_secondHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_secondHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_secondHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 14
+BetaOscillations_AllFiles_NIGHT_segment len: 27
+BetaOscillations_AllFiles_MORNING_segment len: 67
+BetaOscillations_AllFiles_NIGHT_segment len: 134
+BetaOscillations_AllFiles_MORNING_segment len: 21
+BetaOscillations_AllFiles_NIGHT_segment len: 42
+BetaOscillations_AllFiles_MORNING_segment len: 139
+BetaOscillations_AllFiles_NIGHT_segment len: 273
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:522: RuntimeWarning: invalid value encountered in divide
+  single_entry_morning['HISTOnorm_beta_power_Ch1'] = (single_entry_morning['HISTO_beta_power_Ch1']-np.min(single_entry_morning['HISTO_beta_power_Ch1']))/(np.max(single_entry_morning['HISTO_beta_power_Ch1'])-np.min(single_entry_morning['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 80
+BetaOscillations_AllFiles_NIGHT_segment len: 158
+BetaOscillations_AllFiles_MORNING len: 7
+BetaOscillations_AllFiles_NIGHT len: 7
+2 days -> 1 day after ...
+BetaOscillations_DAY_DATASET_TRAIN len: 291
+BetaOscillations_DAY_DATASET_TEST len: 79
+#### Opening Beta File patient 1 ...
+['# date', 'time', '  beta_amp_ch1', '  beta_amp_ch2', '  beta_power_ch1_norm', ' beta_power_ch2_norm']
+#### Opening TimeFrequency File patient 1 ...
+#### Working on TimeFrequency File patient 1 ...
+#### Opening Stim File ...
+BetaOscillations_AllFiles len: 55702
+BetaOscillations_AllFiles_DAY_segment len: 18
+BetaOscillations_AllFiles_DAY_segment len: 44
+BetaOscillations_AllFiles_DAY_segment len: 14
+BetaOscillations_AllFiles_DAY_segment len: 67
+BetaOscillations_AllFiles_DAY_segment len: 21
+BetaOscillations_AllFiles_DAY_segment len: 139
+BetaOscillations_AllFiles_DAY_segment len: 81
+BetaOscillations_AllFiles_DAY len: 7
+BetaOscillations_AllFiles_MORNING_segment len: 18
+BetaOscillations_AllFiles_NIGHT_segment len: 36
+BetaOscillations_AllFiles_MORNING_segment len: 44
+BetaOscillations_AllFiles_NIGHT_segment len: 87
+BetaOscillations_AllFiles_MORNING_segment len: 14
+BetaOscillations_AllFiles_NIGHT_segment len: 27
+BetaOscillations_AllFiles_MORNING_segment len: 67
+BetaOscillations_AllFiles_NIGHT_segment len: 134
+BetaOscillations_AllFiles_MORNING_segment len: 21
+BetaOscillations_AllFiles_NIGHT_segment len: 42
+BetaOscillations_AllFiles_MORNING_segment len: 139
+BetaOscillations_AllFiles_NIGHT_segment len: 273
+BetaOscillations_AllFiles_MORNING_segment len: 80
+BetaOscillations_AllFiles_NIGHT_segment len: 158
+BetaOscillations_AllFiles_MORNING len: 7
+BetaOscillations_AllFiles_NIGHT len: 7
+2 days -> 1 day after ...
+BetaOscillations_DAY_DATASET_TRAIN len: 291
+BetaOscillations_DAY_DATASET_TEST len: 79
+
+Number of elements in train dataset: 39
+beta_distribution tensor size: torch.Size([2, 206])
+distribution_dayAfter tensor size: torch.Size([206])
+Number of elements in train dataloader: 2
+
+Number of elements in val dataset: 40
+beta_distribution tensor size: torch.Size([2, 206])
+distribution_dayAfter tensor size: torch.Size([206])
+Number of elements in val dataloader: 2
+Missing logger folder: /home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_traininglogs/multiple_setting_scenario/2days_1ddafter/24h/lightning_logs
+Restoring states from the checkpoint path at /home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_calibratedmodel/multiple_setting_scenario/2days_1ddafter/24h/calibratedmodel.ckpt
+/home/s.falciglia/.local/lib/python3.9/site-packages/lightning_fabric/utilities/cloud_io.py:57: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+/home/s.falciglia/.local/lib/python3.9/site-packages/pytorch_lightning/callbacks/model_checkpoint.py:360: The dirpath has changed from '/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/pr_phd01_B_Laura/LOO_1101/LOO_1101_ALL_ABLATION_SEQ2_ANALYSIS/SEQ2_1ddafter/DT_day/lightning_logs/version_1/checkpoints' to '/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_traininglogs/multiple_setting_scenario/2days_1ddafter/24h/lightning_logs/version_0/checkpoints', therefore `best_model_score`, `kth_best_model_path`, `kth_value`, `last_model_path` and `best_k_models` won't be reloaded. Only `best_model_path` will be reloaded.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2]
+
+  | Name        | Type                                | Params | Mode 
+----------------------------------------------------------------------------
+0 | transformer | TransformerModel                    | 3.6 M  | train
+1 | criterion   | WeightedMeanAbsolutePercentageError | 0      | train
+----------------------------------------------------------------------------
+3.6 M     Trainable params
+0         Non-trainable params
+3.6 M     Total params
+14.261    Total estimated model params size (MB)
+Restored all states from the checkpoint at /home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_calibratedmodel/multiple_setting_scenario/2days_1ddafter/24h/calibratedmodel.ckpt
+/home/s.falciglia/.local/lib/python3.9/site-packages/pytorch_lightning/loops/fit_loop.py:298: The number of training batches (2) is smaller than the logging interval Trainer(log_every_n_steps=9). Set a lower value for log_every_n_steps if you want to see logs for the training epoch.
+`Trainer.fit` stopped: `max_epochs=30000` reached.
+
+
+FIT DONE
+
+
+#### Opening Beta File patient 1 ...
+['# date', 'time', '  beta_amp_ch1', '  beta_amp_ch2', '  beta_power_ch1_norm', ' beta_power_ch2_norm']
+#### Opening TimeFrequency File patient 1 ...
+#### Working on TimeFrequency File patient 1 ...
+#### Opening Stim File ...
+BetaOscillations_AllFiles len: 55702
+BetaOscillations_AllFiles_DAY_segment len: 18
+BetaOscillations_AllFiles_DAY_segment len: 44
+BetaOscillations_AllFiles_DAY_segment len: 14
+BetaOscillations_AllFiles_DAY_segment len: 67
+BetaOscillations_AllFiles_DAY_segment len: 21
+BetaOscillations_AllFiles_DAY_segment len: 139
+BetaOscillations_AllFiles_DAY_segment len: 81
+BetaOscillations_AllFiles_DAY len: 7
+BetaOscillations_AllFiles_MORNING_segment len: 18
+BetaOscillations_AllFiles_NIGHT_segment len: 36
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:539: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_firstHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_firstHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_firstHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 44
+BetaOscillations_AllFiles_NIGHT_segment len: 87
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:558: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_secondHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_secondHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_secondHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 14
+BetaOscillations_AllFiles_NIGHT_segment len: 27
+BetaOscillations_AllFiles_MORNING_segment len: 67
+BetaOscillations_AllFiles_NIGHT_segment len: 134
+BetaOscillations_AllFiles_MORNING_segment len: 21
+BetaOscillations_AllFiles_NIGHT_segment len: 42
+BetaOscillations_AllFiles_MORNING_segment len: 139
+BetaOscillations_AllFiles_NIGHT_segment len: 273
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_multiplesetting.py:522: RuntimeWarning: invalid value encountered in divide
+  single_entry_morning['HISTOnorm_beta_power_Ch1'] = (single_entry_morning['HISTO_beta_power_Ch1']-np.min(single_entry_morning['HISTO_beta_power_Ch1']))/(np.max(single_entry_morning['HISTO_beta_power_Ch1'])-np.min(single_entry_morning['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 80
+BetaOscillations_AllFiles_NIGHT_segment len: 158
+BetaOscillations_AllFiles_MORNING len: 7
+BetaOscillations_AllFiles_NIGHT len: 7
+2 days -> 1 day after ...
+BetaOscillations_DAY_DATASET_TRAIN len: 291
+BetaOscillations_DAY_DATASET_TEST len: 79
+Number of elements in test dataset: 40
+beta_distribution tensor size: torch.Size([2, 206])
+Number of elements in test dataloader: 40
+Restoring states from the checkpoint path at /home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_calibratedmodel/multiple_setting_scenario/2days_1ddafter/24h/calibratedmodel.ckpt
+/home/s.falciglia/.local/lib/python3.9/site-packages/lightning_fabric/utilities/cloud_io.py:57: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2]
+Loaded model weights from the checkpoint at /home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/data/patient_calibratedmodel/multiple_setting_scenario/2days_1ddafter/24h/calibratedmodel.ckpt
+Predicting DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████| 40/40 [00:00<00:00, 146.40it/s]
+torch.Size([1, 206])
+Segment_id: 0 -- num_elems: 40 | wMAPE mean: 0.23155267536640167
+Segment_id: 0 -- num_elems: 40 | errorMIN_bin mean: 2.875 | errorMIN_perc mean: 3.425
+Segment_id: 0 -- num_elems: 40 | errorMAX_bin mean: 2.45 | errorMAX_perc mean: 2.925
+Amin_actual_percentile: [[10, 9, 10, 10, 9, 10, 10, 9, 10, 10, 10, 10, 10, 10, 9, 10, 9, 10, 9, 10, 10, 10, 10, 9, 9, 9, 8, 10, 8, 10, 9, 9, 10, 10, 10, 10, 10, 9, 10, 9], [], [], [], [], [], [], [], [], []]
+Bmin_actual_percentile: [[10, 2, 12, 9, 9, 9, 9, 10, 17, 19, 13, 10, 8, 1, 9, 10, 44, 1, 1, 12, 10, 11, 10, 4, 9, 9, 16, 9, 4, 10, 10, 11, 10, 9, 8, 1, 4, 9, 10, 9], [], [], [], [], [], [], [], [], []]
+Amax_actual_percentile: [[90, 88, 90, 90, 89, 90, 89, 89, 90, 90, 89, 90, 90, 90, 90, 90, 90, 89, 90, 90, 90, 89, 90, 90, 90, 90, 89, 90, 90, 90, 90, 90, 88, 89, 90, 90, 90, 89, 90, 90], [], [], [], [], [], [], [], [], []]
+Bmax_actual_percentile: [[91, 93, 96, 97, 89, 91, 89, 88, 94, 88, 91, 90, 90, 65, 92, 90, 99, 97, 86, 95, 91, 89, 90, 92, 90, 90, 87, 89, 81, 91, 90, 90, 88, 90, 88, 98, 84, 88, 90, 91], [], [], [], [], [], [], [], [], []]
