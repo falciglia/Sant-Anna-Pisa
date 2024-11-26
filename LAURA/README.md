@@ -1,6 +1,6 @@
 <div align="center">
 
-# Transformer-based long-term predictor of<br> subthalamic beta activity in Parkinson’s disease
+# **Transformer-based long-term predictor of<br> subthalamic beta activity in Parkinson’s disease**
 
 <p align="center">
 <img src="LAURAframework.png" width="95%">
@@ -29,27 +29,21 @@
 
 </div>
 
-# Welcome! 👋
+# Welcome👋 to the LAURA beta-telling🔮 programme!
 
-**CEBRA** is a library for estimating **C**onsistent **E**m**B**eddings of high-dimensional **R**ecordings using **A**uxiliary variables. It contains self-supervised learning algorithms implemented in PyTorch, and has support for a variety of different datasets common in biology and neuroscience.
+**LAURA** (**L**earning bet**A**-power distrib**U**tions through **R**ecurrent **A**nalysis) is a personalized Transformer-based framework for forecasting subthalamic beta power distribution. Our algorithm analyses home recordings with 1-min resolution in patients who have undergone DBS surgery and are experiencing chronic stimulation. LAURA proved efficacy in both the one-day-ahead and multi-day-ahead prediction tasks, with forecasts extending up to six days. The performance vastly outperformed linear algorithms. The approach was validated in four parkinsonian patients exhibiting heterogeneous subthalamic beta power dynamics and independently of stimulation parameters.
 
-To receive updates on code releases, please 👀 watch or ⭐️ star this repository!
+LAURA resulted from the translation of recent achievements in natural language processing (NLP) and time-series forecasting into the domain of brain disorders through the use of deep learning (DL) techniques. Crucially, the need of DL architectures for large sets of diverse data for training poses a challenge in the clinical setting. Indeed, our results rely on the availability of heterogeneous recordings collected with a resolution of minutes over one year. For each patient, several consecutive days over months of recordings within different sets of DBS parameters have been analysed.
 
-``cebra`` is a self-supervised method for non-linear clustering that allows for label-informed time series analysis.
-It can jointly use behavioral and neural data in a hypothesis- or discovery-driven manner to produce consistent, high-performance latent spaces. While it is not specific to neural and behavioral data, this is the first domain we used the tool in. This application case is to obtain a consistent representation of latent variables driving activity and behavior, improving decoding accuracy of behavioral variables over standard supervised learning, and obtaining embeddings which are robust to domain shifts.
+LAURA framework represents a significant advancement within the aDBS workflow, potentially supporting the **widespread adoption of the aDBS therapy as a long-term treatment strategy** for Parkinson's Disease (PD). 
+
+Our study paves the way for remote monitoring strategies and the implementation of **new algorithm for personalized auto-tuning aDBS devices**. (Stay tuned!👀)
+
+
 
 
 # Reference
 
-- 📄 **Publication May 2023**:
-  [Learnable latent embeddings for joint behavioural and neural analysis.](https://doi.org/10.1038/s41586-023-06031-6)
-  Steffen Schneider*, Jin Hwa Lee* and Mackenzie Weygandt Mathis. Nature 2023.
-
-- 📄 **Preprint April 2022**:
-  [Learnable latent embeddings for joint behavioral and neural analysis.](https://arxiv.org/abs/2204.00673)
-  Steffen Schneider*, Jin Hwa Lee* and Mackenzie Weygandt Mathis
-
-# License
-
-- Since version 0.4.0, CEBRA is open source software under an Apache 2.0 license.
-- Prior versions 0.1.0 to 0.3.1 were released for academic use only (please read the license file).
+- 📄 **Preprint December 2024**:
+  [Transformer-based long-term predictor of subthalamic beta activity in Parkinson’s disease.](https://arxiv.org/abs/2204.00673)
+  S.Falciglia, L.Caffi, C.Baiata, C.Palmisano, I.U.Isaias* and A.Mazzoni*
