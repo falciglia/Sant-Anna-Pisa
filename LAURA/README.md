@@ -1,27 +1,31 @@
 <div align="center">
 
+# Transformer-based long-term predictor of<br> subthalamic beta activity in Parkinson’s disease
 
 <p align="center">
-<img src="https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/6f3943a1-b76d-4674-9df9-87aebd33e517/cebralogo.png?format=2500w" width="95%">
+<img src="LAURAframework.png" width="95%">
 </p>
 
 
+[📇 Preprint](https://cebra.ai/docs/demos.html) |
+[📚 Documentation]() |
+[⌨️ Code]() 
 
-[📚Documentation](https://cebra.ai/docs/) |
-[💡DEMOS](https://cebra.ai/docs/demos.html) |
-[🛠️ Installation](https://cebra.ai/docs/installation.html) |
-[🌎 Home Page](https://www.cebra.ai) |
-[🚨 News](https://cebra.ai/docs/index.html) |
-[🪲 Reporting Issues](https://github.com/AdaptiveMotorControlLab/CEBRA)
-
-
-[![Downloads](https://static.pepy.tech/badge/cebra)](https://pepy.tech/project/cebra)
-[![Downloads](https://static.pepy.tech/badge/cebra/month)](https://pepy.tech/project/cebra)
-[![PyPI version](https://badge.fury.io/py/cebra.svg)](https://badge.fury.io/py/cebra)
-![License: Apache 2.0](https://img.shields.io/badge/License-Apache_2.0-red)
-[![Twitter Follow](https://img.shields.io/twitter/follow/CEBRAAI.svg?label=CEBRAai&style=social)](https://twitter.com/CEBRAAI)
+[Salvatore Falciglia](https://scholar.google.com/citations?user=E-nObHcAAAAJ&hl=it&oi=ao)<sup>1,4#</sup>, 
+[Laura Caffi](https://scholar.google.com/citations?user=xoOsKu8AAAAJ&hl=it&oi=ao)<sup>1,2,3,4#</sup>,
+[Claudio Baiata]()<sup>2</sup>, 
+[Chiara Palmisano](https://scholar.google.com/citations?user=XxgMD7gAAAAJ&hl=it&oi=ao)<sup>3</sup>,
+[Ioannis Ugo Isaias](https://scholar.google.com/citations?user=c_2TmpUAAAAJ&hl=it&oi=ao)<sup>2,3\*</sup>
+&
+[Alberto Mazzoni](https://scholar.google.com/citations?user=b4tE6ScAAAAJ&hl=it&oi=ao)<sup>1,4\*</sup>
 
 
+<sup>1</sup>The BioRobotics Institute, Sant’Anna School of Advanced Studies, 56025 Pisa, Italy,   
+<sup>2</sup>Parkinson Institute of Milan, ASST G.Pini-CTO, 20126 Milano, Italy, 
+<sup>3</sup>University Hospital of Würzburg and Julius Maximilian University of Würzburg, 97080 Würzburg, Germany, 
+<sup>4</sup>Department of Excellence in Robotics and AI, Sant’Anna School of Advanced Studies, 56127 Pisa, Italy
+
+<sup>#</sup> Corresponding authors, <sup>\*</sup> These authors contributed equally to this work
 
 </div>
 
