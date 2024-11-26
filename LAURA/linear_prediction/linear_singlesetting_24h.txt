@@ -1,0 +1,46 @@
+### SINGLE SETTING - 24h
+
+[s.falciglia@dev salvatore-backup-advanced]$ python LAURA_going_to_github/main_linear_singlesetting.py
+Seed set to 2206
+/home/s.falciglia/.local/lib/python3.9/site-packages/lightning_fabric/plugins/environments/slurm.py:204: The `srun` command is available on your system but is not used. HINT: If your intention is to run Lightning on SLURM, prepend your python command with `srun` like so: srun python LAURA_going_to_github/main_linear_singlesetting.py ...
+GPU available: True (cuda), used: True
+TPU available: False, using: 0 TPU cores
+HPU available: False, using: 0 HPUs
+#### Opening Beta File patient 1 ...
+['# date', 'time', '  beta_amp_ch1', '  beta_amp_ch2', '  beta_power_ch1_norm', ' beta_power_ch2_norm']
+#### Opening TimeFrequency File patient 1 ...
+#### Working on TimeFrequency File patient 1 ...
+#### Opening Stim File ...
+BetaOscillations_AllFiles len: 55702
+BetaOscillations_AllFiles_DAY_segment len: 139
+BetaOscillations_AllFiles_DAY len: 1
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_singlesetting.py:481: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_secondHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_secondHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_secondHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_secondHalf['HISTO_beta_power_Ch1']))
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/src/framework/dataset_singlesetting.py:462: RuntimeWarning: invalid value encountered in divide
+  single_entry_night_firstHalf['HISTOnorm_beta_power_Ch1'] = (single_entry_night_firstHalf['HISTO_beta_power_Ch1']-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))/(np.max(single_entry_night_firstHalf['HISTO_beta_power_Ch1'])-np.min(single_entry_night_firstHalf['HISTO_beta_power_Ch1']))
+BetaOscillations_AllFiles_MORNING_segment len: 139
+BetaOscillations_AllFiles_NIGHT_segment len: 273
+BetaOscillations_AllFiles_MORNING len: 1
+BetaOscillations_AllFiles_NIGHT len: 1
+2 days -> 1 day after ...
+137
+Number of elements in test dataset: 21
+beta_distribution tensor size: torch.Size([2, 206])
+Number of elements in test dataloader: 21
+LOCAL_RANK: 0 - CUDA_VISIBLE_DEVICES: [0,1,2]
+Predicting DataLoader 0: 100%|█████████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 21/21 [00:00<00:00, 173.11it/s]
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/main_linear_singlesetting.py:76: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  l.append(torch.tensor(elem[1][0]))
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/main_linear_singlesetting.py:77: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  l.append(torch.tensor(elem[2][0]))
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/main_linear_singlesetting.py:78: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  l.append(torch.tensor(elem[3][0]))
+/home/s.falciglia/copia-da-prod/salvatore-backup-advanced/LAURA_going_to_github/main_linear_singlesetting.py:79: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  l.append(torch.tensor(elem[4][0]))
+Segment_id: 0 -- num_elems: 21 | wMAPE mean: 0.5591328740119934
+Segment_id: 0 -- num_elems: 21 | errorMIN_bin mean: 4.190476190476191 | errorMIN_perc mean: 4.857142857142857
+Segment_id: 0 -- num_elems: 21 | errorMAX_bin mean: 5.0476190476190474 | errorMAX_perc mean: 5.714285714285714
+Amin_actual_percentile: [[10, 10, 10, 10, 10, 9, 9, 10, 10, 9, 9, 9, 9, 10, 9, 10, 10, 10, 9, 10, 10], [], [], [], [], [], [], [], [], []]
+Bmin_actual_percentile: [[7, 35, 13, 4, 10, 9, 16, 9, 10, 1, 1, 5, 16, 1, 9, 9, 6, 12, 8, 2, 15], [], [], [], [], [], [], [], [], []]
+Amax_actual_percentile: [[90, 90, 90, 90, 90, 89, 90, 90, 90, 89, 89, 90, 90, 90, 90, 90, 90, 88, 89, 90, 89], [], [], [], [], [], [], [], [], []]
+Bmax_actual_percentile: [[92, 94, 98, 92, 88, 85, 93, 70, 97, 77, 86, 97, 92, 91, 99, 80, 76, 87, 91, 84, 90], [], [], [], [], [], [], [], [], []]
