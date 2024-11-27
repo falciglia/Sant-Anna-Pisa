@@ -29,7 +29,7 @@
 
 </div>
 
-# Welcome👋 to the LAURA beta-telling🔮 programme!
+# Welcome👋 to the LAURA beta-telling🔮 programme!🧠
 
 **LAURA** (**L**earning bet**A**-power distrib**U**tions through **R**ecurrent **A**nalysis) is a personalized Transformer-based framework for forecasting subthalamic beta power distribution. Our algorithm analyses home recordings with 1-min resolution in patients who have undergone DBS surgery and are experiencing chronic stimulation. LAURA proved efficacy in both the one-day-ahead and multi-day-ahead prediction tasks, with forecasts extending up to six days. The performance vastly outperformed linear algorithms. The approach was validated in four parkinsonian patients exhibiting heterogeneous subthalamic beta power dynamics and independently of stimulation parameters.
 
