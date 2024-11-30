@@ -8,7 +8,7 @@
 
 
 [📇 Preprint](https://doi.org/10.1101/2024.11.25.24317759) |
-[📉 Linear predictions]() |
+[📉 Linear predictions](linear_prediction/linear_visualization/readme.md) |
 [📈 LAURA predictions]() 
 
 [Salvatore Falciglia](https://scholar.google.com/citations?user=E-nObHcAAAAJ&hl=it&oi=ao)<sup>1,4#</sup>, 
