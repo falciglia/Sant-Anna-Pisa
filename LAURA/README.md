@@ -8,8 +8,8 @@
 
 
 [📇 Preprint](https://doi.org/10.1101/2024.11.25.24317759) |
-[📚 Documentation]() |
-[⌨️ Code]() 
+[📉 Linear predictions]() |
+[📈 LAURA predictions]() 
 
 [Salvatore Falciglia](https://scholar.google.com/citations?user=E-nObHcAAAAJ&hl=it&oi=ao)<sup>1,4#</sup>, 
 [Laura Caffi](https://scholar.google.com/citations?user=xoOsKu8AAAAJ&hl=it&oi=ao)<sup>1,2,3,4#</sup>,
