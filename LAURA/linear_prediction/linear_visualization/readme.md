@@ -35,7 +35,16 @@ linear_prediction
             └── N*days_6ddafter ── ...
 ```
 
-Here are some examples for the task 2days->1ddafter, 24h case.
+Here are some examples for the task single-setting, one-day-ahead, 2days->1ddafter, 24h case.
+<img src="LAURAframework.png">
+<img src="LAURAframework.png">
+<img src="Sant-Anna-Pisa\LAURA\LAURAframework.png">
 
+Here are some examples for the task single-setting, one-day-ahead, 2days->1ddafter, 12h case.
 
-Here are some examples for the task 2days->1ddafter, 12h case.
+Here are some examples for the task multiple-setting, one-day-ahead, 2days->1ddafter, 24h case.
+<img src="LAURAframework.png">
+<img src="LAURAframework.png">
+<img src="Sant-Anna-Pisa\LAURA\LAURAframework.png">
+
+Here are some examples for the task multiple-setting, one-day-ahead, 2days->1ddafter, 12h case.
