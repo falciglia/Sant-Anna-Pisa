@@ -7,7 +7,7 @@
 </p>
 
 
-[📇 Preprint]([https://cebra.ai/docs/demos.html](https://doi.org/10.1101/2024.11.25.24317759)) |
+[📇 Preprint](https://doi.org/10.1101/2024.11.25.24317759) |
 [📚 Documentation]() |
 [⌨️ Code]() 
 
