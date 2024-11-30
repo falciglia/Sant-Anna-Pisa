@@ -1,6 +1,8 @@
-### Data Availability
+## Data Availability
 
 The datasets presented in this article are not readily available because LFP recorded with the AlphaDBS device cannot be deposited in a public repository as they can be traceable to the identity of the subject. Requests to access the datasets should be directed to IUI, ioannis.isaias@asst-pini-cto.it.
+
+Here is the folder structure.
 
 ```
 data
