@@ -36,15 +36,17 @@ linear_prediction
 ```
 
 Here are some examples for the task single-setting, one-day-ahead, 2days->1ddafter, 24h case.
-<img src="LAURAframework.png">
-<img src="LAURAframework.png">
-<img src="Sant-Anna-Pisa\LAURA\LAURAframework.png">
+
+<img src="__figures_for_github__\sss_2d1dd_24h_sample1.png" width=33%> <img src="__figures_for_github__\sss_2d1dd_24h_sample7.png" width=33%> <img src="__figures_for_github__\sss_2d1dd_24h_sample9.png" width=33%>
 
 Here are some examples for the task single-setting, one-day-ahead, 2days->1ddafter, 12h case.
 
+<img src="__figures_for_github__\sss_2d1dd_12h_sample2.png" width=33%> <img src="__figures_for_github__\sss_2d1dd_12h_sample7.png" width=33%> <img src="__figures_for_github__\sss_2d1dd_12h_sample9.png" width=33%>
+
 Here are some examples for the task multiple-setting, one-day-ahead, 2days->1ddafter, 24h case.
-<img src="LAURAframework.png">
-<img src="LAURAframework.png">
-<img src="Sant-Anna-Pisa\LAURA\LAURAframework.png">
+
+<img src="__figures_for_github__\mss_2d1dd_24h_sample2.png" width=33%> <img src="__figures_for_github__\mss_2d1dd_24h_sample6.png" width=33%> <img src="__figures_for_github__\mss_2d1dd_24h_sample8.png" width=33%>
 
 Here are some examples for the task multiple-setting, one-day-ahead, 2days->1ddafter, 12h case.
+
+<img src="__figures_for_github__\mss_2d1dd_12h_sample0.png" width=33%> <img src="__figures_for_github__\mss_2d1dd_12h_sample5.png" width=33%> <img src="__figures_for_github__\mss_2d1dd_12h_sample7.png" width=33%>
