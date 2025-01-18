@@ -10,7 +10,7 @@
 [📇 Preprint](https://doi.org/10.1101/2024.11.25.24317759) |
 [📉 Linear predictions](linear_prediction/linear_visualization/readme.md) |
 [📈 LAURA predictions](src/EDA/patient_visualization/readme.md) |
-[🎧 podcast]()
+[🎧 podcast](https://github.com/falciglia/Sant-Anna-Pisa/raw/refs/heads/main/LAURA/podcast_LAURA.wav)
 
 [Salvatore Falciglia](https://scholar.google.com/citations?user=E-nObHcAAAAJ&hl=it&oi=ao)<sup>1,4#</sup>, 
 [Laura Caffi](https://scholar.google.com/citations?user=xoOsKu8AAAAJ&hl=it&oi=ao)<sup>1,2,3,4#</sup>,
