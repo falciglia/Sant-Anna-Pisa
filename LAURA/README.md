@@ -3,7 +3,7 @@
 # **Transformer-based long-term predictor of<br> subthalamic beta activity in Parkinson’s disease**
 
 <p align="center">
-<img src="LAURAframework.png" width="95%">
+<img src="LAURAframework.jpg" width="95%">
 </p>
 
 
