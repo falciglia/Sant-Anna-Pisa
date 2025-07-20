@@ -46,6 +46,4 @@ Our study paves the way for remote monitoring strategies and the implementation 
 
 # Reference
 
-- 📄 **Preprint December 2024**:
-  [Transformer-based long-term predictor of subthalamic beta activity in Parkinson’s disease.](https://doi.org/10.1101/2024.11.25.24317759)
-  S.Falciglia, L.Caffi, C.Baiata, C.Palmisano, I.U.Isaias* and A.Mazzoni*
+- 📄[Falciglia, S., Caffi, L., Baiata, C., Palmisano, C., Isaias, I. U., & Mazzoni, A. (2025). Transformer-based long-term predictor of subthalamic beta activity in Parkinson’s disease. npj Parkinson's Disease, 11(1), 210.](https://www.nature.com/articles/s41531-025-01011-1)
