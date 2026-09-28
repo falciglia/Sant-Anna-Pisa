@@ -54,4 +54,4 @@ Understanding the **non-motor drivers of subthalamic beta** matters directly for
 # Reference
 
 <!-- TODO: update once the preprint/paper is live -->
-- 📄 Falciglia, S., Caffi, L., Luiso, F., Palmisano, C., Isaias, I. U., & Mazzoni, A. (2025). *Locked to the match: subthalamic engagement in sport match viewing.* [Journal / preprint — TODO](https://www.medrxiv.org/content/10.64898/2026.05.20.26353675v2)
+- 📄 Falciglia, S., Caffi, L., Luiso, F., Palmisano, C., Isaias, I. U., & Mazzoni, A. (2026). *Locked to the match: subthalamic engagement in sport match viewing.* [MedRxiv preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353675v2)
