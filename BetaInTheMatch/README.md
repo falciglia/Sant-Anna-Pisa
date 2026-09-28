@@ -3,8 +3,8 @@
 # **Locked to the match:<br> subthalamic engagement in sport match viewing**
 
 <p align="center">
-<img src="figure1.pdf" width="95%">
-<img src="figure5.pdf" width="95%">
+<img src="figure1.png" width="95%">
+<img src="figure5.png" width="95%">
 <!-- TODO: replace with your actual framework figure filename in the repo -->
 </p>
 
