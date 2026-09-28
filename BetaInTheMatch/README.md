@@ -18,9 +18,10 @@
 [Laura Caffi](https://scholar.google.com/citations?user=xoOsKu8AAAAJ&hl=it&oi=ao)<sup>1,2,4</sup>,
 [Fabrizio Luiso]()<sup>2,3</sup>,
 [Chiara Palmisano](https://scholar.google.com/citations?user=XxgMD7gAAAAJ&hl=it&oi=ao)<sup>2,3</sup>,
-[Ioannis Ugo Isaias](https://scholar.google.com/citations?user=c_2TmpUAAAAJ&hl=it&oi=ao)<sup>2,3#\*</sup>
-&
 [Alberto Mazzoni](https://scholar.google.com/citations?user=b4tE6ScAAAAJ&hl=it&oi=ao)<sup>1,4\*</sup>
+&
+[Ioannis Ugo Isaias](https://scholar.google.com/citations?user=c_2TmpUAAAAJ&hl=it&oi=ao)<sup>2,3#\*</sup>
+
 
 <!-- TODO: verify author order, affiliation superscripts, and the #/* notes below -->
 
@@ -54,4 +55,4 @@ Understanding the **non-motor drivers of subthalamic beta** matters directly for
 # Reference
 
 <!-- TODO: update once the preprint/paper is live -->
-- 📄 Falciglia, S., Caffi, L., Luiso, F., Palmisano, C., Isaias, I. U., & Mazzoni, A. (2026). *Locked to the match: subthalamic engagement in sport match viewing.* [MedRxiv preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353675v2)
+- 📄 Falciglia, S., Caffi, L., Luiso, F., Palmisano, C., Mazzoni, A., & Isaias, I. U. (2026). *Locked to the match: subthalamic engagement in sport match viewing.* [MedRxiv preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353675v2)
