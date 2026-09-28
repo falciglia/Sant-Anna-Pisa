@@ -11,7 +11,7 @@
 
 [📇 Preprint](https://www.medrxiv.org/content/10.64898/2026.05.20.26353675v2) |
 [📊 Session analyses](TODO_ANALYSIS_README_PATH) |
-[🧠 Patient visualizations](TODO_VISUALIZATION_README_PATH)
+[🧠 Patient interviews](TODO_VISUALIZATION_README_PATH)
 <!-- TODO: set the badge targets above (or delete the ones you don't need) -->
 
 [Salvatore Falciglia](https://scholar.google.com/citations?user=E-nObHcAAAAJ&hl=it&oi=ao)<sup>1,4</sup>,
@@ -42,7 +42,7 @@
 
 What is the subthalamic nucleus doing while a Parkinson's patient lives through the tension of a **UEFA Champions League final**, or watches **Sinner and Alcaraz** trade blows point after point?
 
-**Locked to the match** asks how naturalistic emotional and cognitive engagement shapes subthalamic activity in Parkinson's Disease (PD) — by taking STN recording out of the controlled lab task and into the emotional intensity of elite sport. We recorded subthalamic nucleus (STN) local field potentials (LFPs) from patients with bilateral adaptive DBS implants (AlphaDBS device, Newronika SpA) while they watched these real, high-stakes matches — Champions League finals and Sinner–Alcaraz clashes — focusing on the alpha–beta *P-range* (8–23 Hz). The paradigm captures the subthalamus during a rich, real-world experience that recruits attention, emotion, and anticipation, in stark contrast to the controlled tasks that dominate STN LFP studies.
+**Locked to the match** asks how naturalistic emotional and cognitive engagement shapes subthalamic activity in Parkinson's Disease (PD) by taking STN recording out of the controlled lab task and into the emotional intensity of elite sport. We recorded subthalamic nucleus (STN) local field potentials (LFPs) from patients with bilateral adaptive DBS implants (AlphaDBS device, Newronika SpA) while they watched these real, high-stakes matches as Champions League finals and Sinner–Alcaraz clashes, focusing on the alpha–beta *P-range* (8–23 Hz). The paradigm captures the subthalamus during a rich, real-world experience that recruits attention, emotion, and anticipation, in stark contrast to the controlled tasks that dominate STN LFP studies.
 
 Engagement was quantified through a structured **post-viewing interview protocol** (Italian/English), classifying sessions as *engaged* vs. *neutral* and segmenting each session into high-engagement (HE) and low-engagement (LE) intervals, across **in-stadium** and **live-streamed** viewing conditions. Beta dynamics were analysed with **mixed linear models** (per-patient random effects), effect-size estimation, variance decomposition, and FDR-corrected non-parametric testing.
 
